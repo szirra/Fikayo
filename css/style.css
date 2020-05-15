@@ -8215,10 +8215,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #f00; }
+  color: #F8013D; }
   a:hover {
     text-decoration: none;
-    color: #f00; }
+    color: #F8013D; }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -8231,7 +8231,7 @@ strong {
   font-weight: 500; }
 
 .text-primary {
-  color: #f00 !important; }
+  color: #F8013D !important; }
 
 #ancis-main-nav {
   position: absolute;
@@ -8386,9 +8386,9 @@ strong {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
       #ancis-main-nav ul li.active a span {
-        color: #f00; }
+        color: #F8013D; }
         #ancis-main-nav ul li.active a span:before {
-          background: #f00;
+          background: #F8013D;
           visibility: visible;
           -webkit-transform: scaleX(1);
           -moz-transform: scaleX(1);
@@ -8428,7 +8428,7 @@ header {
         color: rgba(255, 255, 255, 0.8);
         letter-spacing: 7px; }
       header .ancis-navbar-brand .ancis-logo i {
-        color: #f00;
+        color: #F8013D;
         position: absolute;
         top: -18px;
         bottom: 0;
@@ -8569,7 +8569,7 @@ header {
       letter-spacing: 1px;
       color: transparent;
       line-height: 1;
-      -webkit-text-fill-color: transparent;
+      -webkit-text-fill-color: #fff;
       /* Will override color (regardless of order) */
       -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: #fff; }
@@ -8631,7 +8631,7 @@ header {
         display: inline-block;
         margin: 5px 7px; }
       .owl-carousel .owl-dots .owl-dot.active span {
-        background: #f00; }
+        background: #F8013D; }
   .owl-carousel:hover .owl-nav .owl-prev,
   .owl-carousel:hover .owl-nav .owl-next {
     opacity: 1; }
@@ -8655,7 +8655,7 @@ header {
     display: inline-block; }
 
 .bg-primary {
-  background: #f00; }
+  background: #F8013D; }
 
 .btn {
   cursor: pointer;
@@ -8666,25 +8666,25 @@ header {
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #f00;
-    border: 1px solid #f00;
+    background: #F8013D;
+    border: 1px solid #F8013D;
     color: #fff; }
     .btn.btn-primary:hover {
-      border: 1px solid #f00;
+      border: 1px solid #F8013D;
       background: transparent;
-      color: #f00; }
+      color: #F8013D; }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #f00;
+      border: 1px solid #F8013D;
       background: transparent;
-      color: #f00; }
+      color: #F8013D; }
       .btn.btn-primary.btn-outline-primary:hover {
-        border: 1px solid #f00;
-        background: #f00;
+        border: 1px solid #F8013D;
+        background: #F8013D;
         color: #fff; }
   .btn.btn-white {
     background: #fff;
     border: 1px solid #fff;
-    color: #f00; }
+    color: #F8013D; }
     .btn.btn-white:hover {
       border: 1px solid #fff;
       background: transparent;
@@ -8799,7 +8799,7 @@ header {
       -webkit-text-fill-color: transparent;
       /* Will override color (regardless of order) */
       -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #f00; }
+      -webkit-text-stroke-color: #F8013D; }
     .ftco-about-section .one-half.half-text .text-inner h3.heading {
       font-size: 44px;
       margin-bottom: 20px;
@@ -8811,7 +8811,7 @@ header {
       .ftco-about-section .one-half.half-text .text-inner ul li {
         list-style: none; }
         .ftco-about-section .one-half.half-text .text-inner ul li span {
-          color: #f00; }
+          color: #F8013D; }
     .ftco-about-section .one-half.half-text .text-inner .watchvideo-heading {
       margin-bottom: 0;
       font-size: 16px;
@@ -8833,7 +8833,7 @@ header {
     .ftco-section-2 .section-2-blocks-wrapper .button span {
       position: absolute;
       font-size: 30px;
-      color: #f00;
+      color: #F8013D;
       top: 50%;
       left: 50%;
       -webkit-transform: translate(-30%, -48%);
@@ -8857,7 +8857,7 @@ header {
       .ftco-section-2 .section-2-blocks-wrapper .text ul li {
         list-style: none; }
         .ftco-section-2 .section-2-blocks-wrapper .text ul li span {
-          color: #f00; }
+          color: #F8013D; }
     .ftco-section-2 .section-2-blocks-wrapper .text .watchvideo-heading {
       margin-bottom: 0;
       font-size: 16px;
@@ -8883,7 +8883,7 @@ header {
   width: 100px;
   height: 100px;
   position: relative;
-  background: #f00;
+  background: #F8013D;
   margin: 0 auto;
   border-radius: 50%; }
   .services .icon span {
@@ -8994,7 +8994,7 @@ header {
         width: 100%; }
       .model-img .text .models-info p {
         font-size: 13px;
-        color: #f00;
+        color: #F8013D;
         margin-bottom: 5px;
         font-weight: 600;
         text-transform: uppercase; }
@@ -9037,7 +9037,7 @@ header {
     display: inline-block; }
     .model-info p > span:first-child {
       font-weight: 400;
-      color: #f00;
+      color: #F8013D;
       width: 100px;
       margin-right: 20px; }
 
@@ -9061,7 +9061,7 @@ header {
   font-size: 34px; }
 
 .req-quote span a {
-  background: #f00;
+  background: #F8013D;
   color: #fff;
   padding: 5px 10px; }
 
@@ -9102,7 +9102,7 @@ header {
           display: inline-block;
           margin: 5px 7px; }
         .testimony-section .owl-carousel .owl-dots .owl-dot.active span {
-          background: #f00; }
+          background: #F8013D; }
   .testimony-section .owl-carousel .owl-stage-outer {
     padding-bottom: 0;
     position: relative; }
@@ -9122,7 +9122,7 @@ header {
       right: 0;
       width: 40px;
       height: 40px;
-      background: #f00;
+      background: #F8013D;
       border-radius: 50%; }
       .testimony-wrap .user-img .quote i {
         color: #fff; }
@@ -9134,7 +9134,7 @@ header {
     font-family: "Vidaloka", Arial, serif; }
   .testimony-wrap .position {
     font-size: 16px;
-    color: #f00;
+    color: #F8013D;
     font-family: "Vidaloka", Arial, serif;
     text-transform: uppercase;
     letter-spacing: 3px; }
@@ -9229,7 +9229,7 @@ textarea.form-control {
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 0;
-    color: #f00; }
+    color: #F8013D; }
   .media-custom .media-body .position {
     font-size: 13px;
     color: #d9d9d9; }
@@ -9255,7 +9255,7 @@ textarea.form-control {
   background: #191919; }
 
 .bg-primary {
-  background: #f00 !important; }
+  background: #F8013D !important; }
 
 .bg-dark {
   background: #191919 !important; }
@@ -9270,7 +9270,7 @@ textarea.form-control {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #f00;
+    background: #F8013D;
     opacity: 0; }
 
 .appointment {
@@ -9341,7 +9341,7 @@ textarea.form-control {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: transparent;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #fff;
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff; }
@@ -9350,7 +9350,7 @@ textarea.form-control {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: transparent;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #fff;
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff; }
@@ -9377,7 +9377,7 @@ textarea.form-control {
     .ftco-footer .block-21 .text .heading a {
       color: rgba(255, 255, 255, 0.8); }
       .ftco-footer .block-21 .text .heading a:hover, .ftco-footer .block-21 .text .heading a:active, .ftco-footer .block-21 .text .heading a:focus {
-        color: #f00; }
+        color: #F8013D; }
   .ftco-footer .block-21 .text .meta > div {
     display: inline-block;
     font-size: 12px;
@@ -9413,12 +9413,12 @@ textarea.form-control {
   .footer-small-nav > li a {
     margin: 0 10px 10px 0; }
     .footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
-      color: #f00; }
+      color: #F8013D; }
 
 .media .ftco-icon {
   width: 100px; }
   .media .ftco-icon span {
-    color: #f00; }
+    color: #F8013D; }
 
 .ftco-media {
   background: #fff;
@@ -9442,7 +9442,7 @@ textarea.form-control {
   .ftco-media .icon {
     font-size: 50px;
     display: block;
-    color: #f00; }
+    color: #F8013D; }
   .ftco-media.text-center .ftco-icon {
     margin: 0 auto; }
 
@@ -9492,7 +9492,7 @@ textarea.form-control {
   -webkit-text-fill-color: transparent;
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #f00; }
+  -webkit-text-stroke-color: #F8013D; }
 
 .heading-section h2 {
   font-size: 50px;
@@ -9500,7 +9500,7 @@ textarea.form-control {
   letter-spacing: 1px;
   color: transparent;
   line-height: 1;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #fff;
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff; }
@@ -9599,7 +9599,7 @@ textarea.form-control {
       .blog-entry .text .heading a {
         color: #fff; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-          color: #f00; }
+          color: #F8013D; }
   .blog-entry .meta > div {
     display: inline-block;
     margin-right: 5px;
@@ -9675,7 +9675,7 @@ textarea.form-control {
       color: #4a5562;
       border: 1px solid rgba(255, 255, 255, 0.1); }
     .block-27 ul li.active a, .block-27 ul li.active span {
-      background: #f00;
+      background: #F8013D;
       color: #fff;
       border: 1px solid transparent; }
 
@@ -9747,9 +9747,9 @@ textarea.form-control {
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease;
-      background: #f00;
+      background: #F8013D;
       color: #fff;
-      border: 1px solid #f00; }
+      border: 1px solid #F8013D; }
     .block-8 .accordion-item .heading > a[aria-expanded="false"]:before {
       content: "\e313";
       color: #ccc;
@@ -9810,10 +9810,10 @@ textarea.form-control {
     -o-transition: .3s all ease;
     transition: .3s all ease; }
     .block-4 .nonloop .owl-dots .owl-dot.active {
-      background: #f00; }
+      background: #F8013D; }
 
 .contact-section .contact-info p a {
-  color: #f00; }
+  color: #F8013D; }
 
 .contact-section .contact-info p span {
   font-weight: 500; }
@@ -9834,7 +9834,7 @@ textarea.form-control {
   .block-3 .image .icon {
     width: 100px;
     height: 100px;
-    background: #f00;
+    background: #F8013D;
     border-radius: 50%;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -9893,7 +9893,7 @@ textarea.form-control {
     .block-21 .text .heading a {
       color: #fff; }
       .block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
-        color: #f00; }
+        color: #F8013D; }
   .block-21 .text .meta > div {
     display: inline-block;
     font-size: 12px;
@@ -9927,7 +9927,7 @@ textarea.form-control {
     margin: 0;
     border-radius: 50% !important;
     font-size: 16px;
-    background: #f00;
+    background: #F8013D;
     color: #fff; }
     .custom-pagination li.active a:hover, .custom-pagination li.active a:focus, .custom-pagination .prev.active a:hover, .custom-pagination .prev.active a:focus, .custom-pagination .next.active a:hover, .custom-pagination .next.active a:focus {
       color: #fff; }
@@ -9961,8 +9961,8 @@ textarea.form-control {
   border: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 11px; }
   .tagcloud a:hover {
-    border: 1px solid #f00;
-    background: #f00;
+    border: 1px solid #F8013D;
+    background: #F8013D;
     color: #fff; }
 
 .comment-form-wrap {
@@ -10005,7 +10005,7 @@ textarea.form-control {
         color: #b3bbc5; }
       .comment-list li .comment-body .reply {
         padding: 5px 10px;
-        background: #f00;
+        background: #F8013D;
         color: #fff;
         text-transform: uppercase;
         font-size: 11px;
