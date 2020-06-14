@@ -8233,6 +8233,24 @@ strong {
 .text-primary {
   color: #F8013D !important; }
 
+#ancis-body-wel{
+  background: white;
+}
+
+#ancis-wel-1 img{
+  width: 160px;
+  height: 165px;
+  
+}
+
+#ancis-wel-2 img{
+  width: 160px;
+  height: 165px;
+  
+}
+
+
+
 #ancis-main-nav {
   position: absolute;
   top: 0;
@@ -9936,7 +9954,6 @@ textarea.form-control {
   .custom-pagination .next {
     float: right; }
 
-/* Blog*/
 .post-info {
   font-size: 12px;
   text-transform: uppercase;
