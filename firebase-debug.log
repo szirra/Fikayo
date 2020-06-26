@@ -1,0 +1,50 @@
+[debug] [2020-06-16T17:51:10.105Z] ----------------------------------------------------------------------
+[debug] [2020-06-16T17:51:10.114Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shaphan Zirra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-06-16T17:51:10.115Z] CLI Version:   8.4.2
+[debug] [2020-06-16T17:51:10.115Z] Platform:      win32
+[debug] [2020-06-16T17:51:10.116Z] Node Version:  v12.14.1
+[debug] [2020-06-16T17:51:10.121Z] Time:          Tue Jun 16 2020 18:51:10 GMT+0100 (British Summer Time)
+[debug] [2020-06-16T17:51:10.122Z] ----------------------------------------------------------------------
+[debug] [2020-06-16T17:51:10.122Z] 
+[debug] [2020-06-16T17:51:10.178Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-16T17:51:10.179Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Shaphan Zirra\Documents\GitHub\Fikayo
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-06-16T17:53:08.124Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-16T17:53:08.125Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-16T17:53:14.418Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 16 Jun 2020 17:53:15 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-16T17:53:14.488Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"fikayo-fashion-site","name":"Fikayo"}
+[debug] [2020-06-16T17:53:48.944Z] FirebaseError: Server Error. socket hang up
+    at Request._callback (C:\Users\Shaphan Zirra\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\Shaphan Zirra\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.onRequestError (C:\Users\Shaphan Zirra\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:228:7)
+    at ClientRequest.EventEmitter.emit (domain.js:475:20)
+    at TLSSocket.socketOnEnd (_http_client.js:440:9)
+    at TLSSocket.emit (events.js:228:7)
+    at TLSSocket.EventEmitter.emit (domain.js:475:20)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
